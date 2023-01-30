@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PESQUISA</h1>
+    <div class="pesquisa">
+        <form>
+             <label>Nome:</label><input type="text" required> <br><br>
+             <label>Data de Nascimento:</label><input type="date"><br><br>
+             <label>Estado:</label>
+             <select>
+               <option value="ac">AC</option><br>
+               <option value="al">AL</option><br>
+               <option value="ap">AP</option><br>
+               <option value="am">AM</option><br>
+               <option value="ba">BA</option><br>
+               <option value="ce">CE</option><br>
+               <option value="df">DF</option><br>
+               <option value="es">ES</option><br>               
+               <option value="go">GO</option><br>
+               <option value="ma">MA</option><br>
+               <option value="mt">MT</option><br>
+               <option value="ms">MS</option><br>
+               <option value="mg">MG</option><br>
+               <option value="pa">PA</option><br>
+               <option value="pb">PB</option><br>
+               <option value="pr">PR</option><br>
+               <option value="pe">PE</option><br>
+               <option value="pi">PI</option><br>
+               <option value="rj">RJ</option><br>              
+               <option value="rn">RN</option><br>
+               <option value="rs">RS</option><br>
+               <option value="ro">RO</option><br>
+               <option value="rr">RR</option><br>
+               <option value="sc">SC</option><br>
+               <option value="sp">SP</option><br>              
+               <option value="se">SE</option><br>
+               <option value="to">TO</option><br>
+             </select><br><br>
+
+             <label>Qual app você mais usa para assistir filmes/series? </label> <br><br>
+             <input type="radio" id="netflix" name="app" value="netflix"> <label>Netflix</label><br>
+             <input type="radio" id="primevideo" name="app" value="primevideo"> <label>PrimeVideo</label><br>
+             <input type="radio" id="disney" name="app" value="disney"> <label>Disney+</label><br>
+             <input type="radio" id="globoplay" name="app" value="globoplay"> <label>GloboPlay</label><br>
+             <input type="radio" id="outros" name="app" value="outros"> <label>Outros</label><br><br>
+
+             <label>Qual genero você mais assiste?</label> <br><br>
+             <input type="radio" id="netflix" name="assistir" value="romance"> <label>Romance</label><br>
+             <input type="radio" id="primevideo" name="assistir" value="comedia"> <label>Comédia</label><br>
+             <input type="radio" id="disney" name="assistir" value="acao"> <label>Ação</label><br>
+             <input type="radio" id="globoplay" name="assistir" value="terror"> <label>Terror</label><br>
+             <input type="radio" id="outros" name="assistir" value="outros"> <label>Outros</label><br><br>
+
+             <label>O que poderia melhorar nos apps de filmes/séries?</label><br><br>
+             <input id="sug1" type="checkbox" name="sug1" value="aparência"><label for="aparência">Aparência</label><br>
+             <input id="sug2" type="checkbox" name="sug2" value="usabilidade"><label for="usabilidade">Usabilidade</label><br>
+             <input id="sug3" type="checkbox" name="sug3" value="quant"><label for="quant">Quantidade de Filmes/Series</label><br>
+             <input id="sug4" type="checkbox" name="sug4" value="suporte"><label for="suporte">Suporte</label><br>
+             <input id="sug5" type="checkbox" name="sug5" value="valor"><label for="valor">Valor das Mensalidades</label><br>
+             <input id="sug6" type="checkbox" name="sug6" value="lançamentos"><label for="lançamentos">Lançamentos</label><br>
+             <input id="sug7" type="checkbox" name="sug7" value="telas"><label for="telas">Quantidade de Telas</label><br><br>
+
+             <label>Deixe o seu comentátio ou sugestão:</label><br>
+             <textarea name="comentario" cols="40" rows="10" placeholder="Sua mensagem aqui..."></textarea><br>
+             <a class="botao" href="agradecimento.html" target="blank" >Enviar</a>                                                                        
+        </form>
+    </div>   
+</body>
+</html>
